@@ -12,7 +12,7 @@ We train the model to detect leaves only and segment it out from rest of the ima
 1. Download and Install Shapely using whl file downloaded from
 https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
-2. Then pip install requirements.txt
+2. Do pip install requirements.txt
 
 3. Download Sample Model: https://drive.google.com/open?id=1NBw6xIVuntBsjWfYji6Fdd9gPKkpKtxX Save it in the root directory of the repo (the `mask_rcnn` directory).
 4. Copy Dataset to `mask_rcnn/datasets/leaf/`.
