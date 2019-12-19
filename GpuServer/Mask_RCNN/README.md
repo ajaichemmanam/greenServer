@@ -1,5 +1,5 @@
 # greenServer
-The Green server uses Matterport MaskRCNN project adapted for leaf segmentation.
+The Green server uses matterport/Mask_RCNN project adapted for leaf segmentation.
 
 # Leaf Segmentation
 
@@ -24,7 +24,7 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/
 ## Run Jupyter notebooks
 Open the `inspect_leaf_data.ipynb` or `inspect_leaf_model.ipynb` Jupter notebooks. You can use these notebooks to explore the dataset and run through the detection pipelie step by step.
 
-## Train the Balloon model
+## Training the model
 
 Train a new model starting from pre-trained COCO weights
 ```
@@ -44,5 +44,5 @@ python3 leaf.py train --dataset=/path/to/leaf/dataset --weights=imagenet
 The code in `leaf.py` is set to train for 3K steps (30 epochs of 100 steps each), and using a batch size of 2. 
 Update the schedule to fit your needs.
 
-Credits
-Matterport Mask RCNN
+## Credits
+Matterport
