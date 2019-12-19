@@ -6,7 +6,11 @@ The Green server uses Matterport MaskRCNN project adapted for leaf segmentation.
 This is an example showing the use of Mask RCNN in a real application.
 We train the model to detect leaves only and segment it out from rest of the image.
 
+This is a sample Image given to the model
+![Original Image](https://raw.githubusercontent.com/ajaichemmanam/greenServer/master/GpuServer/Mask_RCNN/assets/c3i-strawberry2.jpg)
 
+Segmented Image Obtained
+![Segmented Image](https://raw.githubusercontent.com/ajaichemmanam/greenServer/master/GpuServer/Mask_RCNN/assets/mask_c3i-strawberry2.jpg)
 ## Installation
 
 1. Download and Install Shapely using whl file downloaded from
