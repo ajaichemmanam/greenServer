@@ -24,6 +24,17 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/
 ## Run Jupyter notebooks
 Open the `inspect_leaf_data.ipynb` or `inspect_leaf_model.ipynb` Jupter notebooks. You can use these notebooks to explore the dataset and run through the detection pipelie step by step.
 
+## Creating Dataset
+1. Create a train and val folders containing images of leaves.
+2. Open http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html
+3. Load Images and start annotating the leaves in the images using POLYGON tool.
+4. Click on Region Attributes and add column as name and as  attribute leaf
+![Image Annotation](https://raw.githubusercontent.com/ajaichemmanam/greenServer/master/GpuServer/Mask_RCNN/assets/image_anotation.PNG)
+
+5. After annotating all the images, Click Save as JSON in Annotation dropdown.
+6. Save annotation as via_region_data.json and copy to the folder contaning the images
+
+
 ## Training the model
 
 Train a new model starting from pre-trained COCO weights
